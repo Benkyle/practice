@@ -1,23 +1,38 @@
-import logo from './logo.svg';
+
+// import { useState } from 'react';
 import './App.css';
+import CountTask from './Components/CountTask';
+import SetTask from './Components/SetTask';
 
 function App() {
+  // // let count = 0;
+  // const [count, setCount] = useState(0);
+
+  // function handleAddClick(){
+  //   // count =+1;
+  //   // console.log(count);
+  //   setCount(count + 1)   
+  // }
+  // function handleSubClick(){
+  //   setCount(count - 1)
+  // }
+  // function handleReset(){
+  //   setCount(0)
+  // }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      
+      {/* <div className='box'>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {count}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <button onClick={handleAddClick} className='add'>ADD</button>
+        <button onClick={handleSubClick} className='sub'>SUB</button>
+        <button onClick={handleReset} className='sub'>Reset</button>
+        
+      </div> */}
+      <CountTask />
+      <SetTask />
     </div>
   );
 }

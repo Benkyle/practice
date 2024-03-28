@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,31 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.box{
+  max-width: 200px;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: rgb(rgb(223, 182, 182), rgb(138, 207, 138), blue);
+  padding: 10px;
+}
+
+.add{
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  height: 20px;
+  color: beige;
+  cursor: pointer;
+}
+.sub{
+  background-color: #3db2cf;
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  height: 20px;
+  color: beige;
+  cursor: pointer;
 }
